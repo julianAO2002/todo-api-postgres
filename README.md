@@ -1,6 +1,6 @@
 # TP03 - TODO API con Persistencia en PostgreSQL usando Docker
 
-Practica 02 de Programacion Avanzada (LSI - FCyT UNER). Extiende la TODO API
+Practica 02 de Programacion Avanzada (LSI - FCyT UADER). Extiende la TODO API
 de la practica 01, que guardaba las tareas en un array en memoria, para
 persistirlas en PostgreSQL. La API y la base corren como contenedores
 separados, orquestados con Docker Compose.
@@ -35,7 +35,7 @@ conectarse antes de que Postgres acepte conexiones.
 ## Estructura
 
 ```
-02-todo-api-postgres/
+todo-api-postgres/
 ├── db/
 │   └── init.sql                          # Crea la tabla tasks (corre 1 sola vez)
 ├── capturas/                             # Evidencia de las pruebas
